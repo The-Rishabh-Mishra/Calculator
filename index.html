@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="calculator_box">
+        
+       <div class="display">
+        <input type="text" id="display_text" placeholder="0">
+
+       </div>
+       
+
+     <div class="buttons">
+         
+        <div class="row" class="row1" >
+            <button onclick="document.querySelector('#display_text').value=''">AC</button>
+            <button onclick="document.querySelector('#display_text').value
+            =document.querySelector('#display_text').value.toString().slice(0,-1)">DE</button>
+            <button onclick="document.querySelector('#display_text').value+='.'">.</button>
+            <button onclick="document.querySelector('#display_text').value+='/'">/</button>
+        </div>
+        <div class="row" class="row2">
+            <button onclick="sinf()">Sin</button>
+            <button onclick="cosf()">Cos</button>
+            <button onclick="tanf()">Tan</button>
+            <button onclick="sqrtf()">&radic;</button>
+        </div>
+        <div class="row" class="row3">
+            <button onclick="document.querySelector('#display_text').value+='9'">9</button>
+            <button onclick="document.querySelector('#display_text').value+='8'">8</button>
+            <button onclick="document.querySelector('#display_text').value+='7'">7</button>
+            <button onclick="document.querySelector('#display_text').value+='*'">*</button>
+        </div>
+        <div class="row" class="row4">
+            <button onclick="document.querySelector('#display_text').value+='6'">6</button>
+            <button onclick="document.querySelector('#display_text').value+='5'">5</button>
+            <button onclick="document.querySelector('#display_text').value+='4'">4</button>
+            <button onclick="document.querySelector('#display_text').value+='+'">+</button>
+        </div>
+        <div class="row" class="row5">
+            <button onclick="document.querySelector('#display_text').value+='3'">3</button>
+            <button onclick="document.querySelector('#display_text').value+='2'">2</button>
+            <button onclick="document.querySelector('#display_text').value+='1'">1</button>
+            <button onclick="document.querySelector('#display_text').value+='-'">-</button>
+        </div>
+           
+        <div class="row" class="row6">
+            <button onclick="document.querySelector('#display_text').value+='0'">0</button>
+            <button onclick="document.querySelector('#display_text').value+='00'">00</button>
+            <button id="equal" onclick="document.querySelector('#display_text').
+            value=eval(document.querySelector('#display_text').value) ">=</button>
+        </div>
+          
+       
+        </div>
+   
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

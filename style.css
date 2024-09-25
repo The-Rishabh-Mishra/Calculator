@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.calculator_box{
+    background-color: aliceblue;
+    width: 80vw;
+    max-width: 400px;
+    height: 500px;
+    background-color: #151517;
+    border-radius: 10px;
+    box-shadow: 1px 5px 20px rgb(11, 140, 28) , -1px -5px 20px rgb(145, 156, 17);
+}
+.display{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+  
+}
+.buttons{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    height: 80%;
+}
+.row{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    gap: 10px;
+    height: 15%;
+}
+.row button{
+    width: 18%;
+    height: 100%;
+   border-radius: 10px;
+   border: none;
+    box-shadow: 1px 5px 10px rgba(57, 65, 9, 0.8),-1px -5px 20px rgba(33, 45, 28, 0.8);
+   background-color: transparent;
+   color: white;
+   cursor: pointer;
+   font-size: 20px;
+}
+.display input{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+color: white;
+    background-color: #08080b;
+    font-size: 23px;
+    display: flex;
+    text-align: right;
+    padding: 10px;
+ 
+    
+}
+#equal{
+    width: 39%;
+    color: aqua;
+}
+.row button:hover{
+box-shadow: inset 1px 5px 10px rgba(56, 60, 31, 0.8);
+font-size: small;
+color: white;
+}
+#row1 button{
+    color: rgba(205, 202, 16, 0.589);
+}
