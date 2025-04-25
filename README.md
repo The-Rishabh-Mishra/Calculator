@@ -1,4 +1,16 @@
 # Calculator
- A powerful and user-friendly scientific calculator built to handle basic arithmetic, advanced mathematical functions, and everything in between. Whether you're a student, engineer, or math enthusiast, this tool is designed to support your daily calculations with ease and precision.
+A powerful, easy-to-use calculator for basic and advanced math functions. Perfect for students, engineers, and math lovers.
 
+Features:
+Basic Ops: ➕➖✖️➗
 
+Advanced: Sin, cos, tan, log, exponents, roots 🔢
+
+Memory: Save/recall values 💾
+
+Usage:
+Perform calculations 🧮
+
+View results instantly 👀
+
+Clear with "C" or "AC" 🔄
